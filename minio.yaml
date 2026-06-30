@@ -22,6 +22,8 @@ data:
   minio_root_user: bWluaW8=
 type: Opaque
 
+# user : minio
+# Password: minio123
 ---
 
 kind: Deployment
