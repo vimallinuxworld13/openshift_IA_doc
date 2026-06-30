@@ -44,7 +44,7 @@ spec:
             claimName: minio-pvc
       containers:
         - name: minio
-          image: 'quay.io/minio/minio:RELEASE.2024-10-13T13-34-11Z'
+          image: 'quay.io/minio/minio'
           args:
             - server
             - /data
