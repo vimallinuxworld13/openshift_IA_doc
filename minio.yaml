@@ -11,7 +11,7 @@ spec:
   storageClassName: crc-csi-hostpath-provisioner
   volumeMode: Filesystem
 
-  ---
+---
 
 kind: Secret
 apiVersion: v1
